@@ -1,9 +1,0 @@
-{
-	"Monday": {
-		"description":"sunny",
-		"maxTemp":22,
-		"minTemp":20,
-		"windSpeed":12,
-		"danger":false,
-	}
-}
