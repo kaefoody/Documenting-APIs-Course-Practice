@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dailyForecast>
+	<date>2015-06-01</date>
+	<description>sunny</description>
+	<maxTemp unit="C">22</maxTemp>
+	<minTemp unit="C">20</minTemp>
+	<windSpeed unit="kph">12</windSpeed>
+	<danger>false</danger>
+</dailyForecast>
