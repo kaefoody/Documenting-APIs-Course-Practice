@@ -16,7 +16,5 @@
 		<windSpeed unit="kph">40</windSpeed>
 		<danger>true</danger>
 	</dailyForecast>
-	<dailyForecast>
-		</null>
 	</dailyForecast>
 </forecast>
