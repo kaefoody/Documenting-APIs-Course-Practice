@@ -1,0 +1,5 @@
+<recordTV>
+	<when date="2015-06-01" time="18:00" format="24"/>
+	<duration hours="1.5"/>
+	<station channel="54"/>
+</recordTV>
