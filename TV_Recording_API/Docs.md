@@ -3,7 +3,7 @@
 
 | Element | Attribute | Description | Type | Optional | Notes |
 |---|---|---|---|---|---|
-| `code` recordTV | | Data for a TV program recording | TV program data | Required | |
+| `recordTV` | | Data for a TV program recording | TV program data | Required | |
 | when | | The date and time the program starts | date and time data | Required | |
 | | date | Date the program starts | string | Optional | Format is YYYY-MM-DD. Default is today’s date. |
 | | time | Time the program starts | string | Required | Format is HH:MM, with am or pm after for 12 hour format. |
