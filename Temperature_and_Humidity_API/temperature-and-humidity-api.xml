@@ -1,0 +1,24 @@
+<dailyData>
+	<date>2015-06-01</date>
+	<hourlyData>
+		<time>10:00</time>
+		<device>
+			<id>34</id>
+			<temperature>70</temperature>
+			<humidity>11</humidity>
+		</device>
+		<device>
+			<id>35</id>
+				<temperature>72</temperature>
+				<humidity>12</humidity>
+		</device>
+	</hourlyData>
+	<hourlyData>
+		<time>11:00</time>
+		<device>
+			<id>34</id>
+			<temperature>71</temperature>
+			<humidity>10</humidity>
+		</device>
+	</hourlyData>
+</dailyData>
