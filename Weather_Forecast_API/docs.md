@@ -1,7 +1,7 @@
 
 # Represents weather forecasts for multiple days
 
-| Element | Description | Type | Notes |
+| Element | | Description | Type | Notes |
 |---|---|---|---|
 | `longitude` | Data for a TV program recording | number | | 
 | `latitude` | The date and time the program starts | number | |
