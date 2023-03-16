@@ -3,26 +3,15 @@ Represents a response from an [API that measures the temperature and humidity](h
 
 ## Response 
 
+
 #### Top level
-| Element       | Description                                                                       | Type                 | Notes                 |
-|---------------|-----------------------------------------------------------------------------------|----------------------|-----------------------|
-| `dailyData`   | Data from multiple humidity and temperature readings for one day, measured hourly | `dailyData` element  |                       |
-| `date`        | Date of data readings                                                             | string               | Format is YYYY-MM-DD. |
+| <div style="width:100px">Element</div> |<div style="width:300px">Description</div> | <div style="width:100px">Type</div> | <div style="width:300px">Notes</div> |
+|---| --- | --- | --- |
+| `dailyData` | Data from multiple humidity and temperature readings for one day, measured hourly | `dailyData` element  | |
+| `date` | Date of data readings | string | Format is YYYY-MM-DD. |
 
 #### `dailyData`: Represents a collection of hourly data readings for one day
-| Element       | Description                                                                       | Type                 | Notes                 |
-|---------------|-----------------------------------------------------------------------------------|----------------------|-----------------------|
-| `hourlyData`  | Data for one hourly reading                                                       | `hourlyData` element |                       |
 
 #### `hourlyData`: Represents the details of one hourly data reading
-| Element       | Description                                                                       | Type                 | Notes                 |
-|---------------|-----------------------------------------------------------------------------------|----------------------|-----------------------|
-| `time`        | Local time that the hourly reading was recorded                                   | string               | Format is HH:MM.      |
-| `device`      | Details of the hourly data reading measured by one device                         | `device` element     |                       |
 
 #### `device`: Represents the temperature and humidity data measured by one device
-| Element       | Description                                                                       | Type                 | Notes                 |
-|---------------|-----------------------------------------------------------------------------------|----------------------|-----------------------|
-| `id`          | The device’s identification number                                                | number               |                       |
-| `temperature` | Details of the hourly data reading measured by one device                         | number               |                       |
-| `humidity`    | The measured humidity, in percentage                                              | number               |                       |
