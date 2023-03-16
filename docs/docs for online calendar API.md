@@ -9,5 +9,3 @@
 | | `location` | Location of the meeting | string | Optional | Default is an empty string. |
 | | `reminder` | Amount of minutes before the meeting that participants are reminded | number | Optional | Default is 10 minutes. |
 | | `invitees` | Emails of persons invited to the meeting | array of strings | Optional | Default is an empty array. |
-
-
