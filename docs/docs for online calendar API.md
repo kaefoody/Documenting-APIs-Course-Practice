@@ -1,4 +1,4 @@
-# Online Calendar API
+# Online calendar API
 Represents a single meeting for an [online calendar scheduling API](https://github.com/kaefoody/Documenting-APIs-Course-Practice/blob/main/Online_Calendar_API/online-calendar-API.json).
 
 ## Request 
