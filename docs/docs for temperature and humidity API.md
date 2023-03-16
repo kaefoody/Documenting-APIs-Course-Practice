@@ -6,24 +6,24 @@ Represents a response from an [API that measures the temperature and humidity](h
 ### Top level
 | Element | Description | Type | Notes |
 |---|---|---|---|
-| [`dailyData`](###`dailyData`) | Data from multiple humidity and temperature readings for one day, measured hourly | `dailyData` element | |
+| `dailyData`   | Data from multiple humidity and temperature readings for one day, measured hourly | `dailyData` element | |
 
 ### `dailyData`: Represents a collection of hourly data readings for one day
 | Element | Description | Type | Notes |
 |---|---|---|---|
-| `date` | Date of data readings | string | Format is YYYY-MM-DD. |
-| [`hourlyData`](###`hourlyData`) | Data for one hourly reading | `hourlyData` element | |
+| `date`        | Date of data readings                                                             | string            | Format is YYYY-MM-DD. |
+| `hourlyData`  | Data for one hourly reading                                                       | `hourlyData` element | |
 
 ### `hourlyData`: Represents the details of one hourly data reading
 | Element | Description | Type | Notes |
 |---|---|---|---|
-| `time` | Local time that the hourly reading was recorded | string | Format is HH:MM. |
-| [`device`](###`device`) | Details of the hourly data reading measured by one device | `device` element | |
+| `time`        | Local time that the hourly reading was recorded                                   | string | Format is HH:MM. |
+| `device`      | Details of the hourly data reading measured by one device | `device` element | |
 
 ### `device`: Represents the temperature and humidity data measured by one device
 | Element | Description | Type | Notes |
 |---|---|---|---|
-| `id` | The device’s identification number | number | |
-| `temperature` | Details of the hourly data reading measured by one device | number | |
-| `humidity` | The measured humidity, in percentage | number | |
+| `id`          | The device’s identification number                                                | number | |
+| `temperature` | Details of the hourly data reading measured by one device                         | number | |
+| `humidity`    | The measured humidity, in percentage                                              | number | |
 
