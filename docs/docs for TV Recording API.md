@@ -1,5 +1,5 @@
 # TV recording API
-Represents a single request to record a TV show for a [TV recording API](https://github.com/kaefoody/Documenting-APIs-Course-Practice/blob/main/TV_Recording_API/TV-recording-API-example2.xml).
+Represents a single request to record a TV show for a [TV recording API](https://github.com/kaefoody/Documenting-APIs-Course-Practice/blob/main/TV_Recording_API/TV-recording-API.xml).
 
 ## Request 
 
